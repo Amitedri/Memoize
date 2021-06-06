@@ -1,0 +1,26 @@
+.timerContainer {
+  height: 100%;
+  width: 10%;
+  border-radius: 5px;
+  /* background-color: rgb(83, 83, 83); */
+  /* -webkit-box-shadow: 0px 0px 15px 5px #ffdd48;
+  box-shadow: 0px 0px 15px 2px #ffdd48; */
+  font-family: 'Roboto', sans-serif;
+
+}
+.timerDisplay {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.timerDisplay span {
+  width: 100%;
+  height: 50%;
+  align-self: center;
+  font-size: 1.2em;
+  color: white;
+}

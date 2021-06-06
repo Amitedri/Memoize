@@ -1,0 +1,11 @@
+.contactContainer{
+    align-self: center;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}

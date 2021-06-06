@@ -1,0 +1,19 @@
+.navbar {
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-weight: 700;
+  margin-top: 5%;
+  align-self: center;
+}
+
+.navbar span {
+  margin-right: 8%;
+}
+
+.navbar span:hover {
+  color: #de1040;
+  cursor: pointer;
+}
+.withBorder {
+  border-bottom: 2px solid #de1040;
+}

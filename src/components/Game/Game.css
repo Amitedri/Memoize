@@ -1,0 +1,103 @@
+.cardsGrid {
+  align-self: center;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.card {
+  all: unset;
+  height: 15%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+  -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.1s, background 0.2s;
+}
+.controllers {
+  width: 80%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.card:hover {
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93);
+  color: #fff;
+}
+
+.cardImage {
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+}
+.hideCard {
+  display: none;
+}
+.matched {
+  background: white !important;
+}
+.flipCard {
+  -webkit-animation: flip-horizontal-bottom 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: flip-horizontal-bottom 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+.reshuffle {
+  all: unset;
+  height: 100%;
+  width: 10%;
+  margin-left: 5%;
+  background: transparent;
+}
+.reshuffle img {
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  filter: invert(100%);
+  cursor: pointer;
+}
+@media only screen and (max-width: 850px) and (min-width: 300px) {
+  .cardsGrid {
+    width: 85vw;
+  }
+  .card {
+    height: 15%;
+    width: 15%;
+  }
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+}
+
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+
+    transform: rotateY(-180deg);
+  }
+}
