@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Memoize is a memory game with great functionality, timer, music player etc.
+Built with React.
 
 ## Available Scripts
 
